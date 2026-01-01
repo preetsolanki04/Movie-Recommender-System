@@ -28,13 +28,11 @@ A **content-based Movie Recommender System** that suggests movies similar to a u
 ## 📂 Project Structure
 
 ```
-├── app.py                # Streamlit application
-├── movie_dict.pkl        # Processed movie data
-├── similarity.pkl        # Cosine similarity matrix
-├── requirements.txt      # Required dependencies
-└── README.md             # Project documentation
-```
+├── app.py                 # Streamlit application
+├── notebook.ipynb         # Data preprocessing & model development
+└── README.md              # Project documentation
 
+```
 ---
 
 ## ⚙️ Installation & Setup
@@ -68,12 +66,6 @@ streamlit run app.py
 * Based on the selected movie, the system recommends the most similar movies
 * **TMDB API** is used to fetch and display movie posters and additional details in real time
 * Based on the selected movie, the system recommends the most similar movies
-
----
-
-## 📸 Screenshots
-
-*Add screenshots of the application here (optional)*
 
 ---
 
